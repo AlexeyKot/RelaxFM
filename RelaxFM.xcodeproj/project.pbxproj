@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8744C9F217E0C99E00878635 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744C9F117E0C99E00878635 /* UIKit.framework */; };
+		8744C9F417E0C99E00878635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744C9F317E0C99E00878635 /* Foundation.framework */; };
+		8744C9F617E0C99E00878635 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744C9F517E0C99E00878635 /* CoreGraphics.framework */; };
+		8744C9FC17E0C99F00878635 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8744C9FA17E0C99F00878635 /* InfoPlist.strings */; };
+		8744C9FE17E0C99F00878635 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744C9FD17E0C99F00878635 /* main.m */; };
+		8744CA0217E0C99F00878635 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744CA0117E0C99F00878635 /* AppDelegate.m */; };
+		8744CA0417E0C99F00878635 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8744CA0317E0C99F00878635 /* Default.png */; };
+		8744CA0617E0C99F00878635 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8744CA0517E0C99F00878635 /* Default@2x.png */; };
+		8744CA0817E0C99F00878635 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8744CA0717E0C99F00878635 /* Default-568h@2x.png */; };
+		8744CA0B17E0C99F00878635 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744CA0A17E0C99F00878635 /* ViewController.m */; };
+		8744CA0E17E0C99F00878635 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8744CA0C17E0C99F00878635 /* ViewController_iPhone.xib */; };
+		8744CA1117E0C99F00878635 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8744CA0F17E0C99F00878635 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8744C9EE17E0C99E00878635 /* RelaxFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelaxFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8744C9F117E0C99E00878635 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8744C9F317E0C99E00878635 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8744C9F517E0C99E00878635 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8744C9F917E0C99F00878635 /* RelaxFM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RelaxFM-Info.plist"; sourceTree = "<group>"; };
+		8744C9FB17E0C99F00878635 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8744C9FD17E0C99F00878635 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8744C9FF17E0C99F00878635 /* RelaxFM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelaxFM-Prefix.pch"; sourceTree = "<group>"; };
+		8744CA0017E0C99F00878635 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8744CA0117E0C99F00878635 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8744CA0317E0C99F00878635 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8744CA0517E0C99F00878635 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8744CA0717E0C99F00878635 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8744CA0917E0C99F00878635 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8744CA0A17E0C99F00878635 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8744CA0D17E0C99F00878635 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		8744CA1017E0C99F00878635 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8744C9EB17E0C99E00878635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8744C9F217E0C99E00878635 /* UIKit.framework in Frameworks */,
+				8744C9F417E0C99E00878635 /* Foundation.framework in Frameworks */,
+				8744C9F617E0C99E00878635 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8744C9E517E0C99E00878635 = {
+			isa = PBXGroup;
+			children = (
+				8744C9F717E0C99F00878635 /* RelaxFM */,
+				8744C9F017E0C99E00878635 /* Frameworks */,
+				8744C9EF17E0C99E00878635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8744C9EF17E0C99E00878635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8744C9EE17E0C99E00878635 /* RelaxFM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8744C9F017E0C99E00878635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8744C9F117E0C99E00878635 /* UIKit.framework */,
+				8744C9F317E0C99E00878635 /* Foundation.framework */,
+				8744C9F517E0C99E00878635 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8744C9F717E0C99F00878635 /* RelaxFM */ = {
+			isa = PBXGroup;
+			children = (
+				8744CA0017E0C99F00878635 /* AppDelegate.h */,
+				8744CA0117E0C99F00878635 /* AppDelegate.m */,
+				8744CA0917E0C99F00878635 /* ViewController.h */,
+				8744CA0A17E0C99F00878635 /* ViewController.m */,
+				8744CA0C17E0C99F00878635 /* ViewController_iPhone.xib */,
+				8744CA0F17E0C99F00878635 /* ViewController_iPad.xib */,
+				8744C9F817E0C99F00878635 /* Supporting Files */,
+			);
+			path = RelaxFM;
+			sourceTree = "<group>";
+		};
+		8744C9F817E0C99F00878635 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8744C9F917E0C99F00878635 /* RelaxFM-Info.plist */,
+				8744C9FA17E0C99F00878635 /* InfoPlist.strings */,
+				8744C9FD17E0C99F00878635 /* main.m */,
+				8744C9FF17E0C99F00878635 /* RelaxFM-Prefix.pch */,
+				8744CA0317E0C99F00878635 /* Default.png */,
+				8744CA0517E0C99F00878635 /* Default@2x.png */,
+				8744CA0717E0C99F00878635 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8744C9ED17E0C99E00878635 /* RelaxFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8744CA1417E0C99F00878635 /* Build configuration list for PBXNativeTarget "RelaxFM" */;
+			buildPhases = (
+				8744C9EA17E0C99E00878635 /* Sources */,
+				8744C9EB17E0C99E00878635 /* Frameworks */,
+				8744C9EC17E0C99E00878635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelaxFM;
+			productName = RelaxFM;
+			productReference = 8744C9EE17E0C99E00878635 /* RelaxFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8744C9E617E0C99E00878635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexey Chernov";
+			};
+			buildConfigurationList = 8744C9E917E0C99E00878635 /* Build configuration list for PBXProject "RelaxFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8744C9E517E0C99E00878635;
+			productRefGroup = 8744C9EF17E0C99E00878635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8744C9ED17E0C99E00878635 /* RelaxFM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8744C9EC17E0C99E00878635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8744C9FC17E0C99F00878635 /* InfoPlist.strings in Resources */,
+				8744CA0417E0C99F00878635 /* Default.png in Resources */,
+				8744CA0617E0C99F00878635 /* Default@2x.png in Resources */,
+				8744CA0817E0C99F00878635 /* Default-568h@2x.png in Resources */,
+				8744CA0E17E0C99F00878635 /* ViewController_iPhone.xib in Resources */,
+				8744CA1117E0C99F00878635 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8744C9EA17E0C99E00878635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8744C9FE17E0C99F00878635 /* main.m in Sources */,
+				8744CA0217E0C99F00878635 /* AppDelegate.m in Sources */,
+				8744CA0B17E0C99F00878635 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8744C9FA17E0C99F00878635 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8744C9FB17E0C99F00878635 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8744CA0C17E0C99F00878635 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8744CA0D17E0C99F00878635 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8744CA0F17E0C99F00878635 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8744CA1017E0C99F00878635 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8744CA1217E0C99F00878635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8744CA1317E0C99F00878635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8744CA1517E0C99F00878635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RelaxFM/RelaxFM-Prefix.pch";
+				INFOPLIST_FILE = "RelaxFM/RelaxFM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8744CA1617E0C99F00878635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RelaxFM/RelaxFM-Prefix.pch";
+				INFOPLIST_FILE = "RelaxFM/RelaxFM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8744C9E917E0C99E00878635 /* Build configuration list for PBXProject "RelaxFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8744CA1217E0C99F00878635 /* Debug */,
+				8744CA1317E0C99F00878635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8744CA1417E0C99F00878635 /* Build configuration list for PBXNativeTarget "RelaxFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8744CA1517E0C99F00878635 /* Debug */,
+				8744CA1617E0C99F00878635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8744C9E617E0C99E00878635 /* Project object */;
+}
