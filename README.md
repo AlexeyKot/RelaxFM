@@ -1,4 +1,4 @@
 RelaxFM
 =======
 
-Приложение RelaxFM на AppStore https://itunes.apple.com/ru/app/radio-relax-fm/id709324897?mt=8
+An example of Internet-Radio iOS app using Objective-C 
